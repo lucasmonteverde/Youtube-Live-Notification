@@ -1,0 +1,302 @@
+﻿{
+  "extName": {
+    "message": "YouTube フィード",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "YouTube のトップページ フィードに表示される最新動画を通知する拡張機能です",
+    "description": "Extension description"
+  },
+  "extTitle": {
+    "message": "YouTube フィード",
+    "description": "Extension title"
+  },
+  "messageNoFeedItems": {
+    "message": "フィードがありません。",
+    "description": "Message when there are no feed items."
+  },
+  "messageNeedLogIn": {
+    "message": "フィードを表示するにはログインしてください。",
+    "description": "The subtitle when the user is not logged in."
+  },
+  "messageSavedOptions": {
+    "message": "設定を保存しました。",
+    "description": "The message displayed after the user saves the settings."
+  },
+  "buttonLogin": {
+    "message": "ログイン",
+    "description": "The text for the login button."
+  },
+  "buttonLogout": {
+    "message": "ログアウト",
+    "description": "The text for the logout button."
+  },
+  "buttonSave": {
+    "message": "保存",
+    "description": "The text for the save button."
+  },
+  "titleWhichEventTypes": {
+    "message": "フィードに表示するイベント タイプ:",
+    "description": "The title for the section for event type selection."
+  },
+  "titleWhichFeedTypes": {
+    "message": "フィードに表示するフィード タイプ:",
+    "description": "The title for the section for feed type selection."
+  },
+  "label_video_uploaded": {
+    "message": "アップロードした動画",
+    "description": "The label for the checkbox for uploaded videos."
+  },
+  "label_video_favorited": {
+    "message": "お気に入りに追加した動画",
+    "description": "The label for the checkbox for favorited videos."
+  },
+  "label_video_rated": {
+    "message": "評価した動画",
+    "description": "The label for the checkbox for rated videos."
+  },
+  "label_video_liked": {
+    "message": "高く評価した動画",
+    "description": "The label for the checkbox for liked videos."
+  },
+  "label_video_commented": {
+    "message": "コメントした動画",
+    "description": "The label for the checkbox for commented videos."
+  },
+  "label_load_friend_feed": {
+    "message": "友だちからの動画",
+    "description": "The label for the checkbox for whether to load videos from friends."
+  },
+  "label_load_subscription_feed": {
+    "message": "登録チャンネルからの動画",
+    "description": "The label for the checkbox for whether to load videos from subscriptions."
+  },
+  "eventType_video_uploaded": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a> さんが動画をアップロード",
+    "description": "The entry title when a user uploads a new video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_favorited": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a> さんが動画をお気に入りに追加",
+    "description": "The entry title when a user favorites a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_rated": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a> さんが動画を評価",
+    "description": "The entry title when a user rates a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_liked": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a> さんが動画を高く評価",
+    "description": "The entry title when a user likes a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_commented": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a> さんが動画にコメント",
+    "description": "The entry title when a user comments on a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "yearAgo": {
+    "message": "1 年前",
+    "description": "Timestamp singular - 1 year since an event."
+  },
+  "monthAgo": {
+    "message": "1 か月前",
+    "description": "Timestamp singular - 1 month since an event."
+  },
+  "weekAgo": {
+    "message": "1 週間前",
+    "description": "Timestamp singular - 1 week since an event."
+  },
+  "dayAgo": {
+    "message": "1 日前",
+    "description": "Timestamp singular - 1 day since an event."
+  },
+  "hourAgo": {
+    "message": "1 時間前",
+    "description": "Timestamp singular - 1 hour since an event."
+  },
+  "minuteAgo": {
+    "message": "1 分前",
+    "description": "Timestamp singular - 1 minute since an event."
+  },
+  "secondAgo": {
+    "message": "1 秒前",
+    "description": "Timestamp singular - 1 second since an event."
+  },
+  "yearsAgo": {
+    "message": "$count$ 年前",
+    "description": "Timestamp plural - years since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "monthsAgo": {
+    "message": "$count$ か月前",
+    "description": "Timestamp plural - months since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "weeksAgo": {
+    "message": "$count$ 週間前",
+    "description": "Timestamp plural - weeks since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "daysAgo": {
+    "message": "$count$ 日前",
+    "description": "Timestamp plural - days since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$count$ 時間前",
+    "description": "Timestamp plural - hours since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "$count$ 分前",
+    "description": "Timestamp plural - minutes since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "secondsAgo": {
+    "message": "$count$ 秒前",
+    "description": "Timestamp plural - seconds since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "viewCount": {
+    "message": "$count$ 回再生",
+    "description": "The number of views for a video.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "123,456"
+      }
+    }
+  },
+  "labelMinutes": {
+    "message": "分",
+    "description": "The text for the metric label for the options page."
+  },
+  "labelPollingInterval": {
+    "message": "更新間隔",
+    "description": "The label for an option field."
+  },
+  "labelNumFeedItems": {
+    "message": "取得するフィード アイテム数",
+    "description": "The label for an option field."
+  },
+  "labelNumFeedItemsShown": {
+    "message": "表示するフィード アイテム数",
+    "description": "The label for an option field."
+  },
+  "labelUnreadCount": {
+    "message": "未読として数える動画",
+    "description": "The label for an option field."
+  },
+  "labelUnreadCountOnlyNew": {
+    "message": "新しい動画",
+    "description": "The value for an option field."
+  },
+  "labelUnreadCountEverything": {
+    "message": "すべての動画",
+    "description": "The value for an option field."
+  },
+  "labelOpenInNewTab": {
+    "message": "動画ごとに新しいタブを開く",
+    "description": "The label for an option field."
+  },
+  "errorInvalidOptionValue": {
+    "message": "$optionName$ の値が正しくありません。$optionValueMin$～$optionValueMax$ の範囲で値を指定してください。",
+    "description": "The error message when a user specifies a wrong option value.",
+    "placeholders": {
+      "optionName": {
+        "content": "$1",
+        "example": "pollingInterval"
+      },
+      "optionValueMin": {
+        "content": "$2",
+        "example": "1"
+      },
+      "optionValueMax": {
+        "content": "$3",
+        "example": "60"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+	"name": "__MSG_extName__",
+	"version": "1.4",
+	//"manifest_version": 2,
+	"description": "__MSG_extDescription__",
+	"default_locale": "en",
+	
+	"background": {
+		"scripts": [
+			"chrome_ex_oauthsimple.js", 
+			"chrome_ex_oauth.js",
+			"youtube.js",
+			"background.js"
+		]
+	},
+	
+	"options_page": "options.html",
+	
+	"browser_action": {
+		"default_icon": "img/icon48.png",
+		"default_title": "__MSG_extTitle__",
+		"default_popup": "feeds.html"
+	},
+	
+	"permissions": [
+		"tabs",
+		"notifications",
+		"http://gdata.youtube.com/",
+		"https://www.google.com/accounts/OAuthGetRequestToken",
+		"https://www.google.com/accounts/OAuthAuthorizeToken",
+		"https://www.google.com/accounts/OAuthGetAccessToken"
+	],
+	
+	"icons": {
+		"16": "img/icon16.png",
+		"48": "img/icon48.png",
+		"128": "img/icon128.png"
+	},
+	
+	"web_accessible_resources": [
+		"chrome_ex_oauthsimple.js", 
+		"chrome_ex_oauth.js", 
+		"youtube.js",
+		"background.js"
+	]
+}

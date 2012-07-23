@@ -1,0 +1,302 @@
+﻿{
+  "extName": {
+    "message": "YouTube 피드",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "YouTube 홈페이지 피드의 새 동영상 알림 기능",
+    "description": "Extension description"
+  },
+  "extTitle": {
+    "message": "YouTube 피드",
+    "description": "Extension title"
+  },
+  "messageNoFeedItems": {
+    "message": "피드가 없습니다.",
+    "description": "Message when there are no feed items."
+  },
+  "messageNeedLogIn": {
+    "message": "피드를 보려면 로그인하세요.",
+    "description": "The subtitle when the user is not logged in."
+  },
+  "messageSavedOptions": {
+    "message": "설정을 저장했습니다.",
+    "description": "The message displayed after the user saves the settings."
+  },
+  "buttonLogin": {
+    "message": "로그인",
+    "description": "The text for the login button."
+  },
+  "buttonLogout": {
+    "message": "로그아웃",
+    "description": "The text for the logout button."
+  },
+  "buttonSave": {
+    "message": "저장",
+    "description": "The text for the save button."
+  },
+  "titleWhichEventTypes": {
+    "message": "Event types to show in the Feed:피드에 표시할 이벤트 유형:",
+    "description": "The title for the section for event type selection."
+  },
+  "titleWhichFeedTypes": {
+    "message": "Feed types to show in the Feed: 피드에 표시할 피드 유형:",
+    "description": "The title for the section for feed type selection."
+  },
+  "label_video_uploaded": {
+    "message": "업로드한 동영상",
+    "description": "The label for the checkbox for uploaded videos."
+  },
+  "label_video_favorited": {
+    "message": "즐겨찾기한 동영상",
+    "description": "The label for the checkbox for favorited videos."
+  },
+  "label_video_rated": {
+    "message": "평점 동영상",
+    "description": "The label for the checkbox for rated videos."
+  },
+  "label_video_liked": {
+    "message": "좋아요 표시한 동영상",
+    "description": "The label for the checkbox for liked videos."
+  },
+  "label_video_commented": {
+    "message": "댓글 단 동영상",
+    "description": "The label for the checkbox for commented videos."
+  },
+  "label_load_friend_feed": {
+    "message": "친구들의 동영상",
+    "description": "The label for the checkbox for whether to load videos from friends."
+  },
+  "label_load_subscription_feed": {
+    "message": "구독 동영상",
+    "description": "The label for the checkbox for whether to load videos from subscriptions."
+  },
+  "eventType_video_uploaded": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a>님이 동영상을 업로드 했습니다.",
+    "description": "The entry title when a user uploads a new video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_favorited": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a>님이 동영상을 즐겨찾기에 등록했습니다.",
+    "description": "The entry title when a user favorites a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_rated": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a>님이 동영상을 평가했습니다.",
+    "description": "The entry title when a user rates a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_liked": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a>님이 동영상을 좋아요 표시했습니다.",
+    "description": "The entry title when a user likes a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_commented": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a>님이 동영상에 댓글을 달았습니다.",
+    "description": "The entry title when a user comments on a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "yearAgo": {
+    "message": "1년 전",
+    "description": "Timestamp singular - 1 year since an event."
+  },
+  "monthAgo": {
+    "message": "1달 전",
+    "description": "Timestamp singular - 1 month since an event."
+  },
+  "weekAgo": {
+    "message": "1주 전",
+    "description": "Timestamp singular - 1 week since an event."
+  },
+  "dayAgo": {
+    "message": "1일 전",
+    "description": "Timestamp singular - 1 day since an event."
+  },
+  "hourAgo": {
+    "message": "1시간 전",
+    "description": "Timestamp singular - 1 hour since an event."
+  },
+  "minuteAgo": {
+    "message": "1분 전",
+    "description": "Timestamp singular - 1 minute since an event."
+  },
+  "secondAgo": {
+    "message": "1초 전",
+    "description": "Timestamp singular - 1 second since an event."
+  },
+  "yearsAgo": {
+    "message": "$count$년 전",
+    "description": "Timestamp plural - years since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "monthsAgo": {
+    "message": "$count$달 전",
+    "description": "Timestamp plural - months since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "weeksAgo": {
+    "message": "$count$주 전",
+    "description": "Timestamp plural - weeks since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "daysAgo": {
+    "message": "$count$일 전",
+    "description": "Timestamp plural - days since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$count$시간 전",
+    "description": "Timestamp plural - hours since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "$count$분 전",
+    "description": "Timestamp plural - minutes since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "secondsAgo": {
+    "message": "$count$초 전",
+    "description": "Timestamp plural - seconds since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "viewCount": {
+    "message": "조회수: $count$",
+    "description": "The number of views for a video.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "123,456"
+      }
+    }
+  },
+  "labelMinutes": {
+    "message": "분",
+    "description": "The text for the metric label for the options page."
+  },
+  "labelPollingInterval": {
+    "message": "폴링 간격",
+    "description": "The label for an option field."
+  },
+  "labelNumFeedItems": {
+    "message": "조회할 피드 개수",
+    "description": "The label for an option field."
+  },
+  "labelNumFeedItemsShown": {
+    "message": "표시할 피드 개수",
+    "description": "The label for an option field."
+  },
+  "labelUnreadCount": {
+    "message": "읽지않음 개수 표시",
+    "description": "The label for an option field."
+  },
+  "labelUnreadCountOnlyNew": {
+    "message": "새 동영상",
+    "description": "The value for an option field."
+  },
+  "labelUnreadCountEverything": {
+    "message": "전체 동영상",
+    "description": "The value for an option field."
+  },
+  "labelOpenInNewTab": {
+    "message": "각 탭에서 동영상 열기",
+    "description": "The label for an option field."
+  },
+  "errorInvalidOptionValue": {
+    "message": "$optionName$ 값이 잘못되었습니다. $optionValueMin$와 $optionValueMax$ 사이의 값을 설정하시기 바랍니다.",
+    "description": "The error message when a user specifies a wrong option value.",
+    "placeholders": {
+      "optionName": {
+        "content": "$1",
+        "example": "pollingInterval"
+      },
+      "optionValueMin": {
+        "content": "$2",
+        "example": "1"
+      },
+      "optionValueMax": {
+        "content": "$3",
+        "example": "60"
+      }
+    }
+  }
+}

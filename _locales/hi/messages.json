@@ -1,0 +1,302 @@
+﻿{
+  "extName": {
+    "message": "YouTube फीड",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "YouTube मुखपृष्ठ फीड पर उपयोगकर्ता को नए वीडियो के बारे में सूचित करता है",
+    "description": "Extension description"
+  },
+  "extTitle": {
+    "message": "YouTube फीड",
+    "description": "Extension title"
+  },
+  "messageNoFeedItems": {
+    "message": "कोई फीड आइटम नहीं है.",
+    "description": "Message when there are no feed items."
+  },
+  "messageNeedLogIn": {
+    "message": "अपने फीड देखने के लिए आपको लॉग इन होने की ज़रूरत है.",
+    "description": "The subtitle when the user is not logged in."
+  },
+  "messageSavedOptions": {
+    "message": "आपकी सेटिंग को सफलतापूर्वक सहेजा.",
+    "description": "The message displayed after the user saves the settings."
+  },
+  "buttonLogin": {
+    "message": "लॉग-इन",
+    "description": "The text for the login button."
+  },
+  "buttonLogout": {
+    "message": "लॉग-आउट",
+    "description": "The text for the logout button."
+  },
+  "buttonSave": {
+    "message": "सहेजें",
+    "description": "The text for the save button."
+  },
+  "titleWhichEventTypes": {
+    "message": "फीड में दर्शाने के लिए ईवेंट प्रकार:",
+    "description": "The title for the section for event type selection."
+  },
+  "titleWhichFeedTypes": {
+    "message": "फीड में दर्शाने के लिए फीड प्रकार:",
+    "description": "The title for the section for feed type selection."
+  },
+  "label_video_uploaded": {
+    "message": "अपलोड किए गए वीडियो",
+    "description": "The label for the checkbox for uploaded videos."
+  },
+  "label_video_favorited": {
+    "message": "पसंदीदा बने वीडियो",
+    "description": "The label for the checkbox for favorited videos."
+  },
+  "label_video_rated": {
+    "message": "दर्जा प्राप्त वीडियो",
+    "description": "The label for the checkbox for rated videos."
+  },
+  "label_video_liked": {
+    "message": "पसंद किए गए वीडियो",
+    "description": "The label for the checkbox for liked videos."
+  },
+  "label_video_commented": {
+    "message": "टिप्पणी वाले वीडियो",
+    "description": "The label for the checkbox for commented videos."
+  },
+  "label_load_friend_feed": {
+    "message": "मित्रों द्वारा वीडियो",
+    "description": "The label for the checkbox for whether to load videos from friends."
+  },
+  "label_load_subscription_feed": {
+    "message": "ग्राहकी वाले वीडियो",
+    "description": "The label for the checkbox for whether to load videos from subscriptions."
+  },
+  "eventType_video_uploaded": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a> एक वीडियो अपलोड किया.",
+    "description": "The entry title when a user uploads a new video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_favorited": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a> एक वीडियो को पसंदीदा बनाया.",
+    "description": "The entry title when a user favorites a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_rated": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a> एक वीडियो को दर्जा दिया.",
+    "description": "The entry title when a user rates a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_liked": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a> एक वीडियो को पसंद किया.",
+    "description": "The entry title when a user likes a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "eventType_video_commented": {
+    "message": "<a href='$url$' class='feed-entry-user'>$username$</a> एक वीडियो पर टिप्पणी की.",
+    "description": "The entry title when a user comments on a video.",
+    "placeholders": {
+      "url": {
+         "content": "$1",
+         "example": "http://www.youtube.com/user/slavegoogle"
+      },
+      "username": {
+         "content": "$2",
+         "example": "slavegoogle"
+      }
+    }
+  },
+  "yearAgo": {
+    "message": "1 वर्ष पहले",
+    "description": "Timestamp singular - 1 year since an event."
+  },
+  "monthAgo": {
+    "message": "1 महीने पहले",
+    "description": "Timestamp singular - 1 month since an event."
+  },
+  "weekAgo": {
+    "message": "1 सप्ताह पहले",
+    "description": "Timestamp singular - 1 week since an event."
+  },
+  "dayAgo": {
+    "message": "1 दिन पहले",
+    "description": "Timestamp singular - 1 day since an event."
+  },
+  "hourAgo": {
+    "message": "1 घंटा पहले",
+    "description": "Timestamp singular - 1 hour since an event."
+  },
+  "minuteAgo": {
+    "message": "1 मिनट पहले",
+    "description": "Timestamp singular - 1 minute since an event."
+  },
+  "secondAgo": {
+    "message": "1 सेकंड पहले",
+    "description": "Timestamp singular - 1 second since an event."
+  },
+  "yearsAgo": {
+    "message": "$count$ वर्ष पहले",
+    "description": "Timestamp plural - years since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "monthsAgo": {
+    "message": "$count$ महीने पहले",
+    "description": "Timestamp plural - months since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "weeksAgo": {
+    "message": "$count$ सप्ताह पहले",
+    "description": "Timestamp plural - weeks since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "daysAgo": {
+    "message": "$count$ दिन पहले",
+    "description": "Timestamp plural - days since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$count$ घंटा पहले",
+    "description": "Timestamp plural - hours since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "minutesAgo": {
+    "message": "$count$ मिनट पहले",
+    "description": "Timestamp plural - minutes since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "secondsAgo": {
+    "message": "$count$ सेकंड पहले",
+    "description": "Timestamp plural - seconds since an event.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "3"
+      }
+    }
+  },
+  "viewCount": {
+    "message": "$count$ बार देखा गया",
+    "description": "The number of views for a video.",
+    "placeholders": {
+      "count": {
+         "content": "$1",
+         "example": "123,456"
+      }
+    }
+  },
+  "labelMinutes": {
+    "message": "मिनट",
+    "description": "The text for the metric label for the options page."
+  },
+  "labelPollingInterval": {
+    "message": "पोलिंग अंतराल",
+    "description": "The label for an option field."
+  },
+  "labelNumFeedItems": {
+    "message": "पुन: प्राप्त किए जाने वाले फीड आइटमों की संख्या",
+    "description": "The label for an option field."
+  },
+  "labelNumFeedItemsShown": {
+    "message": "दिखाए जाने वाले फीड आइटमों की संख्या",
+    "description": "The label for an option field."
+  },
+  "labelUnreadCount": {
+    "message": "अपठित संख्या दर्शाती है",
+    "description": "The label for an option field."
+  },
+  "labelUnreadCountOnlyNew": {
+    "message": "नए वीडियो",
+    "description": "The value for an option field."
+  },
+  "labelUnreadCountEverything": {
+    "message": "सभी वीडियो",
+    "description": "The value for an option field."
+  },
+  "labelOpenInNewTab": {
+    "message": "प्रत्येक वीडियो को उसके अपने टैब में खोलें",
+    "description": "The label for an option field."
+  },
+  "errorInvalidOptionValue": {
+    "message": "$optionName$ के लिए अमान्य मान. कृपया $optionValueMin$ और $optionValueMax$ के बीच एक मान निर्दिष्ट करें.",
+    "description": "The error message when a user specifies a wrong option value.",
+    "placeholders": {
+      "optionName": {
+        "content": "$1",
+        "example": "pollingInterval"
+      },
+      "optionValueMin": {
+        "content": "$2",
+        "example": "1"
+      },
+      "optionValueMax": {
+        "content": "$3",
+        "example": "60"
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+ * Copyright 2010 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * @author Slave Jovanovski (slave@google.com)
+ *
+ *
+-->
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="feeds.css" />
+	<script src="youtube.js"></script>
+	<script src="feeds.js"></script>
+  </head>
+  <body>
+    <div class="feed-entry-template">
+      <span class="feed-entry-remove"></span>
+      <a class="feed-entry-item-id"></a>
+      <div class="feed-entry-title">
+        <img class="feed-entry-action-icon" src="img/pixel.gif">
+        <span class="feed-entry-title-text"></span>
+        <span class="feed-entry-timestamp"></span>
+      </div>
+      <div class="feed-entry-video-cell-template">
+        <div class="feed-entry-video-entry">
+          <a class="feed-entry-video-thumb">
+            <span class="feed-entry-video-img-span">
+              <img class="feed-entry-video-img">
+            </span>
+            <span class="feed-entry-video-time"></span>
+          </a>
+          <div class="feed-entry-video-main-content">
+            <div class="feed-entry-video-title">
+              <div class="feed-entry-video-long-title">
+                <a class="feed-entry-video-long-title-anchor"></a>
+              </div>
+              <div class="feed-entry-video-description"></div>
+              <div class="feed-entry-video-facets">
+                <span class="feed-entry-video-added-time"></span>
+                <span class="feed-entry-video-num-views"></span>
+                <span class="feed-entry-video-username">
+                  <a class="feed-entry-video-from-username"></a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="feed-entry-video-entry-clear"></div>
+        </div>
+      </div>
+    </div>
+    <div id='main'>
+      <h1 id='title'></h1>
+      <div id='feed'></div>
+      <button id='login_button' style='display: none;'></button>
+      <button id='logout_button' style='display: none;'></button>
+    </div>
+  </body>
+</html>
